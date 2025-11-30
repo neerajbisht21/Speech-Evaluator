@@ -1,0 +1,6 @@
+criterion,description,keywords,weight,min_words,max_words
+Content & Structure,"Checks salutation, basic details (name, age, class/school/family), hobbies, fun fact, flow of introduction","name;age;class;school;family;hobby;interest;fun fact;unique point;goal",40,50,200
+Speech Rate,"Words per minute should be in ideal range","",10,0,0
+Language & Grammar,"Grammar correctness and vocabulary richness","",20,0,0
+Clarity,"Filler word rate (um, uh, like, you know, etc.)","um;uh;like;you know;so;actually;basically;right;i mean;well;kinda;sort of;okay;hmm;ah",15,0,0
+Engagement,"Sentiment positivity score from VADER","",15,0,0

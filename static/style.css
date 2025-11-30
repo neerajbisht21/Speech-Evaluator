@@ -1,0 +1,9 @@
+body {font-family: Inter, sans-serif; background: linear-gradient(180deg,#b3d4fc,#eaf5f6); color: #0b1220;}
+textarea {font-size: 14px;}
+button {transition: all 0.3s ease;}
+button:hover {transform: translateY(-2px);}
+#quickStats div {transition: all 0.3s ease;}
+#quickStats div:hover {transform: scale(1.05);}
+canvas {background: #f9fafb; border-radius: 12px;}
+table th, table td {padding: 8px; border-bottom: 1px solid #e2e8f0;}
+.feedback {color: #4b5563; font-size: 13px;}

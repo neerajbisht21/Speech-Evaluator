@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "criterion": "Content & Structure",
+    "description": "Checks salutation, basic details (name, age, class/school/family), hobbies, fun fact, unique point, flow of introduction.",
+    "keywords": ["name","age","class","school","family","hobby","interest","fun fact","unique point","goal"],
+    "weight": 40,
+    "min_words": 50,
+    "max_words": 200
+  },
+  {
+    "id": 2,
+    "criterion": "Speech Rate",
+    "description": "Words per minute should be in ideal range (111–140 wpm preferred).",
+    "keywords": [],
+    "weight": 10,
+    "min_words": 0,
+    "max_words": 0
+  },
+  {
+    "id": 3,
+    "criterion": "Language & Grammar",
+    "description": "Grammar correctness and vocabulary richness.",
+    "keywords": [],
+    "weight": 20,
+    "min_words": 0,
+    "max_words": 0
+  },
+  {
+    "id": 4,
+    "criterion": "Clarity",
+    "description": "Filler words detected in transcript.",
+    "keywords": ["um","uh","like","you know","so","actually","basically","right","i mean","well","kinda","sort of","okay","hmm","ah"],
+    "weight": 15,
+    "min_words": 0,
+    "max_words": 0
+  },
+  {
+    "id": 5,
+    "criterion": "Engagement",
+    "description": "Sentiment positivity score using VADER.",
+    "keywords": [],
+    "weight": 15,
+    "min_words": 0,
+    "max_words": 0
+  }
+]
