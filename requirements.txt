@@ -1,6 +1,6 @@
 # Web framework
 Flask==2.3.3
-Flask-Cors==3.1.1
+Flask-Cors==6.0.1
 gunicorn==21.2.0
 
 # Data processing & ML
