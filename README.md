@@ -38,7 +38,7 @@ python app.py
 6. open http://127.0.0.1:5000 in browser
 
 
-
+Deployment link: https://speechevaluator.onrender.com
 
 ![Alt text](image.png)
 
